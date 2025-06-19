@@ -1,5 +1,5 @@
 ---
-title: Sub page
+title: Online payment gateway
 deprecated: false
 hidden: false
 metadata:
