@@ -5,13 +5,13 @@ hidden: false
 metadata:
   robots: index
 ---
-**`Scan Merchant QR`**
+# Scan Merchant QR
 
 The user starts by clicking the Scan icon on the home screen to launch the QR scanner.
 
-**Scan Icon**: A button on the home screen to open the camera and scan QR codes.
+**`Scan Icon`**: A button on the home screen to open the camera and scan QR codes.
 
-**Merchant QR**: A unique code displayed by a merchant to receive payments.
+**`Merchant QR`**: A unique code displayed by a merchant to receive payments.
 
 Enter Payment Amount
 
