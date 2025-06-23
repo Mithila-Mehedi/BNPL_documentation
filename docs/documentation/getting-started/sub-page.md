@@ -13,9 +13,9 @@ metadata:
 
 The user starts by clicking the Scan icon on the home screen to launch the QR scanner.
 
-**`Scan Icon`**: An icon on the home screen to open the camera and scan QR codes.
+`Scan Icon`: An icon on the home screen to open the camera and scan QR codes.
 
-**`Merchant QR`**: A unique code displayed by a merchant to receive payments.
+`Merchant QR`: A unique code displayed by a merchant to receive payments.
 
 <Image align="center" width="35% " src="https://files.readme.io/a2142b5372e6d2b14a5a5a9479b99aa43da347588075999aedc5be8819c7b952-a021af3b-212b-42b3-a898-bfe6ed85c5d4.jfif" />
 
