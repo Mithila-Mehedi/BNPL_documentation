@@ -1,5 +1,9 @@
 ---
 title: BNPL Payment Flow
+excerpt: >-
+  BNPL (Buy Now, Pay Later): A payment option that lets customers purchase a
+  product or service immediately and pay for it over time through scheduled
+  instalments, often with little or no interest.
 deprecated: false
 hidden: false
 metadata:
