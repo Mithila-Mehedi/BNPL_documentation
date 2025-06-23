@@ -9,11 +9,11 @@ metadata:
 
 The user starts by clicking the Scan icon on the home screen to launch the QR scanner.
 
-**`Scan Icon`**: A button on the home screen to open the camera and scan QR codes.
+**`Scan Icon`**: An icon on the home screen to open the camera and scan QR codes.
 
 **`Merchant QR`**: A unique code displayed by a merchant to receive payments.
 
-<Image align="center" width="25% " src="https://files.readme.io/a2142b5372e6d2b14a5a5a9479b99aa43da347588075999aedc5be8819c7b952-a021af3b-212b-42b3-a898-bfe6ed85c5d4.jfif" />
+<Image align="center" width="35% " src="https://files.readme.io/a2142b5372e6d2b14a5a5a9479b99aa43da347588075999aedc5be8819c7b952-a021af3b-212b-42b3-a898-bfe6ed85c5d4.jfif" />
 
 <br />
 
@@ -25,6 +25,10 @@ After scanning, the user is directed to a screen with a text input field. They e
 
 `Next `Button: The button to move to the next screen, becomes active after entering a valid amount.
 
+<Image align="center" width="35% " src="https://files.readme.io/66977ad62b3cefd3c98618aa469f2d2728f0a4f617269dcaaaf647b9d603af5a-6a68e523-aa40-4904-bec0-31003886f035.jfif" />
+
+<br />
+
 # Bill Details Page
 
 Clicking "Next" takes the user to the Bill Details page. This screen summarizes the bill and allows the user to choose payment frequency and installment options.
@@ -33,9 +37,13 @@ Clicking "Next" takes the user to the Bill Details page. This screen summarizes 
 
 `Bill Amount`: The amount the user entered on the previous screen.
 
-`Voucher/ Promo Code`: Optional discount that can be selected from a dropdown.
+`Voucher/ Promo Code`: Optional discount that can be selected from an available voucher list.
 
-`Select Functionality`: Allows users to choose a promo code from a list.
+`Select` Functionality: Allows users to choose a promo code from a list.
+
+<Image align="center" src="https://files.readme.io/8bcc7a56cd4d366885048b601cd94d71390dd4459764ceb6c635bfda7fa2b51b-Screenshot_111.png" />
+
+<br />
 
 # Choose Payment Frequency
 
