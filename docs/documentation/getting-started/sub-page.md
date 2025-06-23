@@ -25,7 +25,7 @@ After scanning, the user is directed to a screen with a text input field. They e
 
 `Next `Button: The button to move to the next screen, becomes active after entering a valid amount.
 
-<Image align="center" width="35% " src="https://files.readme.io/66977ad62b3cefd3c98618aa469f2d2728f0a4f617269dcaaaf647b9d603af5a-6a68e523-aa40-4904-bec0-31003886f035.jfif" />
+<Image align="center" width="250px" src="https://files.readme.io/ac36d008560541bde8e358b61991f6063646ab8b1d48dc8cf396c9834ab8851c-image.png" />
 
 <br />
 
@@ -53,9 +53,13 @@ The user selects how often they want to make payments — either biweekly or mon
 
 `Monthly`: Payment made once a month.
 
+![](https://files.readme.io/61eab5855390b116dcd0d6877238fbd717342a97002ac5b9c80d6c50b80fa321-image.png)
+
+<br />
+
 # Select Payment Option
 
-The user now chooses a payment plan, such as "Pay Now", "Pay in 2", "Pay in 3", or "Pay in 4". These plans split the payment and show all cost details.
+The user now chooses a payment plan, such as `Pay Now`, `Pay in 2`, `Pay in 3`, or `Pay in 4`. These plans split the payment and show all cost details.
 
 `Pay Now`: Pay the full amount immediately.
 
@@ -63,31 +67,39 @@ The user now chooses a payment plan, such as "Pay Now", "Pay in 2", "Pay in 3", 
 
 `Installment Plan Info`: Breakdown of how much to pay now, future installments, and fees.
 
-Example (Pay in 2):
+![](https://files.readme.io/2ccee88d394aa6ce1309056d08772f8e3ac72066fed31086e2629f180d68a628-image.png)
 
-Input Bill Amount: RM 150.00
+<br />
 
-Pay Today: RM 86.00
+`Pay in 2`: The total payment amount entered by the user (e.g., RM 140.00).
 
-Next Instalment: RM 75.00 due on 7 Jul 2025
+`Pay Today`: The portion of the bill charged immediately, including any upfront fees.
 
-Processing Fee: RM 11.00
+`Instalment`: A part of the total payment that is scheduled to be paid on a future date. (e.g., RM 125.00 on 7 Jul 2025).
 
-Credit Shield Fee: RM 0.00
+`Processing Fee`: An extra service fee charged for using the instalment plan.
 
-Discount: RM 0.00
+`Credit Shield Fee`: Optional fee for protection against missed payments (if any).
+
+`Discount`: Any promotional or voucher-based amount reduced from the total.
 
 # Choose or Switch Card
 
-User sees the card saved during eKYC. They can either use this card or tap "Switch" to add a new one.
+User sees the card saved during eKYC. They can either use this card or tap `Switch` to add a new one.
+
+![](https://files.readme.io/bf726d644bc26f4f1224e3fe5f8614bba1c93b4fc47e8d65cbbbd4dc14b42b84-image.png)
+
+<Image align="center" src="https://files.readme.io/8a3593c5bfe905088a609d5152c71b0f1f11a3d913b217f8cb70f7820708b1ae-image.png" />
+
+<br />
 
 `Saved Card`: A card previously added and stored securely.
 
 `eKYC`: A process to verify identity of a customer.
 
-`Switch Button`: Takes the user to the “Add Card” page.
+`Switch` Button: Takes the user to the “Add Card” page.
 
-`Add Card Page`: A screen to enter and save a new card for payment.
+`Add Card Page`: A screen to switch cards or save a new card for payment.
 
 # Tap “Pay Now”
 
@@ -95,9 +107,17 @@ After confirming the plan and card, the user taps the “Pay Now” button to st
 
 `Pay Now` Button: Confirms the selected payment option and proceeds to final approval.
 
+![](https://files.readme.io/ad03d1bd20c6a675719cb46d469c0e38a62b6a9c909b91110927ea64ae2c55b4-image.png)
+
+<br />
+
 # Spend Responsibility Popup
 
 A modal appears explaining the consequences of late payment and the fee that will apply. The user must agree to continue.
+
+![](https://files.readme.io/65ee590f4af0169ecdd72732c6bff1e4ad237e4a196f6d5f6d4ab66dc3de4130-image.png)
+
+<br />
 
 `Spend Responsibility Modal`: A popup message showing late payment policy.
 
@@ -113,11 +133,17 @@ The user is prompted to enter their passcode. If the passcode is correct, the sy
 
 `Passcode`: A secure code set by the user to authorize transactions.
 
-`Authentication`: Verifying user identity before completing the action.
+![](https://files.readme.io/0206b21213ce9efe2f294c4f0b975ccfc033247f54a053070c48bf3be8f3c513-image.png)
+
+<br />
 
 # Payment Successful Page
 
 After successful authentication, the user is shown a confirmation page with full payment details.
+
+![](https://files.readme.io/b8c9ce63cb1aa4c895c1c2d09c790fcb5b7e8140bc4e3a90b3d0eaa410d27b77-image.png)
+
+<br />
 
 `Paid Amount`: What was charged now.
 
@@ -129,10 +155,10 @@ After successful authentication, the user is shown a confirmation page with full
 
 `Installment Plan Detail`: Breakdown of today’s and future payments.
 
+`Done` Button: Finishes the flow and redirects to the `my bill` page.
+
 # Redirect to My Bills
 
 User taps the Done button to go to the My Bills page, where they can view upcoming and recent payments.
 
-`Done Button`: Finishes the flow and goes to the next page.
-
-`My Bills Page`: A list view of both future and past payments.
+![](https://files.readme.io/df58314626c0185019fe9f1b598c53293de34a219f509ab009c9ef041c2b5bbb-image.png)
