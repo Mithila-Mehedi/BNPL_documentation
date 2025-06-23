@@ -13,6 +13,10 @@ The user starts by clicking the Scan icon on the home screen to launch the QR sc
 
 **`Merchant QR`**: A unique code displayed by a merchant to receive payments.
 
+<Image align="center" width="25% " src="https://files.readme.io/a2142b5372e6d2b14a5a5a9479b99aa43da347588075999aedc5be8819c7b952-a021af3b-212b-42b3-a898-bfe6ed85c5d4.jfif" />
+
+<br />
+
 # Enter Payment Amount
 
 After scanning, the user is directed to a screen with a text input field. They enter the amount they wish to pay. The Next button remains disabled until an amount is typed. Once entered, the button becomes active.
