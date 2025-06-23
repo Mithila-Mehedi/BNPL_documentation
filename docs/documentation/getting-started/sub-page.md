@@ -17,11 +17,9 @@ The user starts by clicking the Scan icon on the home screen to launch the QR sc
 
 After scanning, the user is directed to a screen with a text input field. They enter the amount they wish to pay. The Next button remains disabled until an amount is typed. Once entered, the button becomes active.
 
-Payment Amount Field: A text box where the user types how much they want to pay.
+`Payment Amount Field`: A text box where the user types how much they want to pay.
 
-Placeholder: Greyed-out hint text saying "Payment Amount".
-
-Next Button: A button to move to the next screen, becomes active after entering a valid amount.
+`Next `Button: The button to move to the next screen, becomes active after entering a valid amount.
 
 # Bill Details Page
 
