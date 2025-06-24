@@ -21,25 +21,16 @@ By clicking `view all`, user is redirected to the `All Bills` page and navigates
 
 Use clicks on this card to see details. Each upcoming instalment `bill page` shows details of:
 
-`Transaction ID` -
-
-`Bill Amount` – Original bill total before discounts or fees
-
-`Discount` – Any voucher/promo code applied during 1st instalment
-
-`Billable Amount` – Final amount to be paid after discount
-
-`Processing Fee` – Service charge added during payment
-
-`Credit Shield Fee` – Optional fee for credit protection
-
-`Paid Amount` – Already paid portion of the bill
-
-`Due Amount` – Remaining balance for the current instalment
-
-`Timestamp` – Date and time of the instalment
-
-`Payment Method` – Indicates card used (e.g., Mastercard, Visa)
+* `Transaction ID` -
+* `Bill Amount` – Original bill total before discounts or fees
+* `Discount` – Any voucher/promo code applied during 1st instalment
+* `Billable Amount` – Final amount to be paid after discount
+* `Processing Fee` – Service charge added during payment
+* `Credit Shield Fee` – Optional fee for credit protection
+* `Paid Amount` – Already paid portion of the bill
+* `Due Amount` – Remaining balance for the current instalment
+* `Timestamp` – Date and time of the instalment
+* `Payment Method` – Indicates card used (e.g., Mastercard, Visa)
 
 ![](https://files.readme.io/c73d326ce639e0beb0eaec6aaea58d4a2b9a8a086af88053b40e21403e2589dd-image.png)
 
