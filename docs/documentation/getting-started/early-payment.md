@@ -73,8 +73,34 @@ BUTTON 1: `Switch Card`: Redirects to "Add Card" page to select another saved ca
 
 BUTTON 2: `Pay Earlier`: Triggers a popup modal with multiple buttons based on number of upcoming instalments.
 
-Example: If Plan 1 is paid and Plans 2 & 3 are pending:
+![](https://files.readme.io/4c73a5525807e2ead69519b8ec646bb6fcd54babca4c2fafde644262ec119f8a-image.png)
+
+<br />
+
+Example:
+
+If Plan 1 is paid and Plans 2 & 3 are pending:
 
 Button 1: “Pay for 1 month” → Plan 2
 
 Button 2: “Pay for 2 months” → Plan 2 + Plan 3
+
+# Select Payment Method
+
+By clicking any of the payment plan buttons, another pop-up modal appears. The modal contains buttons for each saved card. For example, `“Pay with XXXX-1234”``“Pay with XXXX-5678”` and `Use Other Option`.
+
+![](https://files.readme.io/6b8b6af76eb0a6c189424b707f721481e6ba8dbd79635f84d118a7a157e30bfd-image.png)
+
+`Use other option`button redirects to full checkout portal. Check-out Portal payment options Include:
+
+* Online Banking (DuitNow)
+* Debit/Credit Card
+* E-wallets
+* Moby BNPL
+* Paylater with Credit Card
+
+`(Refer to [Checkout Documentation] for complete payment method details)`
+
+<br />
+
+&#x20;
