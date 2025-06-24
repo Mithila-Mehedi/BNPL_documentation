@@ -11,7 +11,7 @@ metadata:
 ---
 # My Bills Page
 
-The user goes to the `My Bills` page and finds the `Upcoming Payments` section with the next upcoming bill card, including `Merchant Name`, `Instalment Amount`, and `Due Date`. This section also contains a `view all` option. Users can tap `View All` to see all upcoming bills.
+The user goes to the `My Bills` page and finds the `Upcoming Payments` section with the next upcoming bill card, including Merchant Name, Instalment Amount, and Due Date. This section also contains a `view all` option. Users can tap `View All` to see all upcoming bills.
 
 ![](https://files.readme.io/efe598dacdc1f3592e9e33262e501ce229cd8f8a32ea71b14b21135c7773b66e-image.png)
 
