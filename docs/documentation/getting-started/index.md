@@ -5,7 +5,7 @@ excerpt: >-
   in a jiffy!
 hidden: false
 ---
-# [BNPL Payment Flow]()
+# <Anchor label="BNPL Payment Flow" target="_blank" href="https://moby-bnpl.readme.io/update/docs/sub-page#/">BNPL Payment Flow</Anchor>
 
 # Early Payment
 
