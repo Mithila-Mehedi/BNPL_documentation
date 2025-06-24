@@ -64,17 +64,19 @@ BUTTON 1: `Switch Card`: Redirects to "Add Card" page to select another saved ca
 
 BUTTON 2: `Pay Earlier`: Triggers a popup modal with multiple buttons based on number of upcoming instalments.
 
-![](https://files.readme.io/4c73a5525807e2ead69519b8ec646bb6fcd54babca4c2fafde644262ec119f8a-image.png)
-
-<br />
-
 Example:
 
 If Plan 1 is paid and Plans 2 & 3 are pending:
 
-Button 1: “Pay for 1 month” → Plan 2
+Button 1: `“Pay for 1 month”` → Plan 2
 
-Button 2: “Pay for 2 months” → Plan 2 + Plan 3
+Button 2: `“Pay for 2 months”` → Plan 2 + Plan 3
+
+![](https://files.readme.io/4c73a5525807e2ead69519b8ec646bb6fcd54babca4c2fafde644262ec119f8a-image.png)
+
+<br />
+
+<br />
 
 # Select Payment Method
 
@@ -92,6 +94,28 @@ By clicking any of the payment plan buttons, another pop-up modal appears. The m
 
 `(Refer to [Checkout Documentation] for complete payment method details)`
 
+# Payment Confirmation
+
+After selecting the desired payment method, the user enters secure passcode.
+
+**Success Flow:** Redirects back to Bill Details page
+
+Newly paid instalment now shows:
+
+* ✅ Green Tick
+
+![](https://files.readme.io/17cc267774a11ca36484cd217b089655c59ebb641307dd747bf4b3f64cb598c8-image.png)
+
 <br />
 
-&#x20;
+* Updated Payment History card with success status. Updated Card Info based on selected payment method
+
+![](https://files.readme.io/87ebb0741ef8c988a1544492be09d4bb0dbbb54ec212981cf1b6fb3820ad2b9f-image.png)
+
+<br />
+
+# `Spending Limit` & `Upcoming Bill` Tab Update
+
+After successful payment, user’s available BNPL balance increases. Spending Limit is restored based on paid instalments. If all the pending instalments are paid successfully, then the bill card will be removed automatically and stored in the `Completed` tab.
+
+![](https://files.readme.io/d7c794b97450ce46553d26e88bf34217caa869129081ff21308cd4ff2dd3c868-image.png)
