@@ -7,7 +7,7 @@ hidden: false
 ---
 # <Anchor label="BNPL Payment Flow" target="_blank" href="https://moby-bnpl.readme.io/update/docs/sub-page#/">BNPL Payment Flow</Anchor>
 
-# Early Payment
+# <Anchor label="Early Payment" target="_blank" href="https://moby-bnpl.readme.io/update/docs/early-payment#/">Early Payment</Anchor>
 
 # Add Card
 
