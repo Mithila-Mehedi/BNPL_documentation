@@ -56,3 +56,25 @@ Current Instalment shows: `Instalment Amount`, `Processing Fee`,`Credit Shield F
 Upcoming Instalments (e.g., Plan 2, 3, 4) are shown with: 🔘 Gray Tick for unpaid instalments, Dates & Amounts per future schedule.
 
 ![](https://files.readme.io/74dbf5b8f155e0a09e19e0c318ac4c7c33c3879b3ee8454c448746440ea2f073-image.png)
+
+# Payment History Section
+
+Each payment plan is viewed in a card that contains: `Timestamp`,`Paid Amount`,`Card Number (last 4 digits)`,`Instalment Plan Number`,`Payment Status` – success / failed / pending
+
+![](https://files.readme.io/36e90f8c316e13cb4982f286bc7bf1cf301c1a9b734717fdc39e62f5afe69181-image.png)
+
+# Action Buttons
+
+This page contains 2 action buttons.
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/531613d5e25030341209b55a9a6c977804d8d7877edb06df403e35b526464acb-image.png" />
+
+BUTTON 1: `Switch Card`: Redirects to "Add Card" page to select another saved card or add a new card.
+
+BUTTON 2: `Pay Earlier`: Triggers a popup modal with multiple buttons based on number of upcoming instalments.
+
+Example: If Plan 1 is paid and Plans 2 & 3 are pending:
+
+Button 1: “Pay for 1 month” → Plan 2
+
+Button 2: “Pay for 2 months” → Plan 2 + Plan 3
