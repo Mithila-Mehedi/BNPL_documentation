@@ -53,3 +53,31 @@ Each list item shows:
 <Image align="center" width="200px" src="https://files.readme.io/e2d6097eb9c359a526f8c42fd0f665f86a86efff452d7b773a9cf5962730ffbd-image.png" />
 
 ### Indicator Guide:
+
+* 🟢 Green → Successful installment
+* 🔴 Red → Overdue installment
+* ⚪ Grey → Upcoming installment
+
+## Step 5: Single Due Bill Case
+
+If the user has only one overdue bill, clicking “Pay to Activate” will redirect them directly to the payment page, skipping the “Due Bills” page.
+
+## Step 6: Payment Completion
+
+After successful payment, the user will receive:
+
+* A payment success `notification` (including late fee details).
+* An unsuspension `notification` once all due bills are cleared.
+
+![](https://files.readme.io/b86bdc905115990b66a04022127e2f290ef7d5c172c39ed56e88a97e2e1f5d62-image.png)
+
+## Step 7: Account Reactivation
+
+After being unsuspended:
+
+* The user can again make BNPL transactions.
+* The home screen will show the spending limit balance instead of the suspended account alert card.
+
+<Image align="center" width="160px" src="https://files.readme.io/cf81149303573e7d29cb10b5c6be5b6095c239ff6bfb7c331acaa40c38845d90-image.png" />
+
+<br />
