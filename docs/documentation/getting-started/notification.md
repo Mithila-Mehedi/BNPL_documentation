@@ -20,6 +20,8 @@ Once the overdue bills are fully paid, the account will be unsuspended, and the 
 
 # Suspension Notification & User Journey
 
+## Suspension Notification
+
 After login, the user will find a notification about account suspension in the app’s notification section.
 
 <Image align="right" src="https://files.readme.io/5ab992e2183e3c0160fcd3a140e059bedcdfd66790b4a471900f04ae799a1da0-image.png" />
