@@ -34,7 +34,9 @@ On the home screen, a card is displayed:
 * Shows overdue amount
 * Includes a button: `Pay to Activate`
 
-<Image align="center" width="220px" src="https://files.readme.io/1076accdc5953cdbf8a42f50b22fe0c0442dc5755f7ec65fc5ead955bd03d6f5-image.png" />
+![](https://files.readme.io/fe0c980323ce9cd6a04d0b10bddbcb22f8aa82b2f9e6a4d10e9bf50742ecd512-image.png)
+
+<br />
 
 ## Step 3: Pay to Activate
 
@@ -50,7 +52,9 @@ Each list item shows:
 * Installment status indicator
 * `Pay Now` button
 
-<Image align="center" width="200px" src="https://files.readme.io/e2d6097eb9c359a526f8c42fd0f665f86a86efff452d7b773a9cf5962730ffbd-image.png" />
+![](https://files.readme.io/05d0b6ce676ba534afd3885967f7c0c39e5a2258ff36995c6ae10ae63dcee72e-image.png)
+
+<br />
 
 ### Indicator Guide:
 
