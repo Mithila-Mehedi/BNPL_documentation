@@ -5,11 +5,11 @@ excerpt: >-
   in a jiffy!
 hidden: false
 ---
-# <Anchor label="BNPL Payment Flow" target="_blank" href="https://moby-bnpl.readme.io/update/docs/sub-page#/">BNPL Payment Flow</Anchor>
+# [BNPL Payment Flow](https://moby-bnpl.readme.io/update/docs/sub-page#/)
 
-# <Anchor label="Early Payment" target="_blank" href="https://moby-bnpl.readme.io/update/docs/early-payment#/">Early Payment</Anchor>
+# [Early Payment](https://moby-bnpl.readme.io/update/docs/early-payment#/)
 
-# Add Card
+# [Suspension & Overdue](https://moby-bnpl.readme.io/update/docs/notification#/)
 
 We're excited you're here! :blue_heart:
 
