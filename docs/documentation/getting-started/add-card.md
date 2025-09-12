@@ -4,119 +4,67 @@ deprecated: false
 hidden: false
 metadata:
   robots: index
+---
 
-# Cards Page
-User clicks on card icon from home page to redirect `Cards` page. `Cards` page will show a list of cards if there was previously added cards available.
-<img width="384" height="378" alt="image" src="https://github.com/user-attachments/assets/70173078-e881-4b2d-be53-a97b06983dc5" />
+# Card Management
+
+This document outlines the test scenarios and validations for the Card Management flow, including navigation, card details, card removal, and card addition.
+
+---
+
+## Card Navigation
+- User clicks on **Card** icon from Home page and navigates to **Cards** page
+
+  <img width="368" height="420" alt="image" src="https://github.com/user-attachments/assets/942930a4-d0a9-4ed1-94c3-9cec9fda0a6a" />
 
 
-![](https://files.readme.io/efe598dacdc1f3592e9e33262e501ce229cd8f8a32ea71b14b21135c7773b66e-image.png)
+- **Cards** page displays all saved cards  
+- One card is tagged as **Primary**  
+- The most recently added card is tagged as **Primary** by default  
+- The **Primary** card is used by default during payment
 
-# All Bills Page –> 'Upcomings' Tab
+  <img width="520" height="471" alt="image" src="https://github.com/user-attachments/assets/e662bcb7-a5f4-4aae-a917-18539fab4e88" />
 
-By clicking `view all`, user is redirected to the `All Bills` page and navigates to the `Upcomings` tab.
+---
 
-![](https://files.readme.io/02a922b6f4fe878c214ff66b9bf50e2016988753168d95d8460bcbb01bd1c139-image.png)
+  ## Card Details
+- User can change `Primary` card  
+- Clicking a card opens `Card Details` page. This page contains `card number`, `expiry date` and a `Set as Primary` toggle button to change the primary card.
 
-<br />
+  <img width="438" height="643" alt="image" src="https://github.com/user-attachments/assets/59751ca1-3a68-4b70-aeda-38516fc6e120" />
 
-Use clicks on this card to see details. Each upcoming instalment `bill page` shows details of:
 
-* `Transaction ID` -
-* `Bill Amount` – Original bill total before discounts or fees
-* `Discount` – Any voucher/promo code applied during 1st instalment
-* `Billable Amount` – Final amount to be paid after discount
-* `Processing Fee` – Service charge added during payment
-* `Credit Shield Fee` – Optional fee for credit protection
-* `Paid Amount` – Already paid portion of the bill
-* `Due Amount` – Remaining balance for the current instalment
-* `Timestamp` – Date and time of the instalment
-* `Payment Method` – Indicates card used (e.g., Mastercard, Visa)
+- Enabling the toggle button shows popup`“Set as primary payment method”` with two button`yes` and `no` 
+- Clicking `Yes` sets the selected card as `Primary`  
+- Clicking `No` keeps the current `Primary` unchanged  
 
-![](https://files.readme.io/c73d326ce639e0beb0eaec6aaea58d4a2b9a8a086af88053b40e21403e2589dd-image.png)
 
-<br />
+<img width="451" height="329" alt="image" src="https://github.com/user-attachments/assets/489311bd-6618-4203-9487-293d57774892" />
 
-# Instalment Date Details with Amount
 
-Current Instalment shows: `Instalment Amount`, `Processing Fee`,`Credit Shield Fee` and  ✅ Green Tick if already paid.
+---
 
-![](https://files.readme.io/f30f6646874206f5b0adbfcea39771dca167c83ab80c193df99b25408a4dbe30-image.png)
+## Card Removal
+- **Remove this card** button is displayed on **Card Details** page  
+- Clicking **Remove** shows popup *“Remove this card?”* with **Cancel/Remove** options  
+- Clicking **Cancel** keeps user on **Card Details** page without changes  
+- Clicking **Remove** deletes the card successfully  
+- **Primary** card cannot be removed and shows error message  
+- Card with **pending transactions** cannot be removed and shows error message  
 
-<br />
+---
 
-Upcoming Instalments (e.g., Plan 2, 3, 4) are shown with: 🔘 Gray Tick for unpaid instalments, Dates & Amounts per future schedule.
+## Card Addition
+- User clicks **Add Card** button on **Cards** page  
+- **Add Card** page displays fields: *Cardholder Name, Card Number, Expiry Date, CVV*  
+- Adding a card with valid details and successful **3DS** completion shows a success popup  
+- Adding a card with invalid/expired details shows error *“Invalid card details”*  
 
-![](https://files.readme.io/74dbf5b8f155e0a09e19e0c318ac4c7c33c3879b3ee8454c448746440ea2f073-image.png)
+---
 
-# Payment History Section
+## Card Addition Failed
+- Failed **3DS authentication** redirects to failure page with message  
+- Failure page displays **Try Again** and **Try Later** options  
+- Clicking **Try Again** redirects back to **Add Card** page  
+- Clicking **Try Later** redirects back to **Cards** list page  
 
-Each payment plan is viewed in a card that contains: `Timestamp`,`Paid Amount`,`Card Number (last 4 digits)`,`Instalment Plan Number`,`Payment Status` – success / failed / pending
-
-![](https://files.readme.io/36e90f8c316e13cb4982f286bc7bf1cf301c1a9b734717fdc39e62f5afe69181-image.png)
-
-# Action Buttons
-
-This page contains 2 action buttons.
-
-<Image align="center" className="border" border={true} src="https://files.readme.io/531613d5e25030341209b55a9a6c977804d8d7877edb06df403e35b526464acb-image.png" />
-
-BUTTON 1: `Switch Card`: Redirects to "Add Card" page to select another saved card or add a new card.
-
-BUTTON 2: `Pay Earlier`: Triggers a popup modal with multiple buttons based on number of upcoming instalments.
-
-Example:
-
-If Plan 1 is paid and Plans 2 & 3 are pending:
-
-Button 1: `“Pay for 1 month”` → Plan 2
-
-Button 2: `“Pay for 2 months”` → Plan 2 + Plan 3
-
-![](https://files.readme.io/4c73a5525807e2ead69519b8ec646bb6fcd54babca4c2fafde644262ec119f8a-image.png)
-
-<br />
-
-<br />
-
-# Select Payment Method
-
-By clicking any of the payment plan buttons, another pop-up modal appears. The modal contains buttons for each saved card. For example, `“Pay with XXXX-1234”``“Pay with XXXX-5678”` and `Use Other Option`.
-
-![](https://files.readme.io/6b8b6af76eb0a6c189424b707f721481e6ba8dbd79635f84d118a7a157e30bfd-image.png)
-
-`Use other option`button redirects to full checkout portal. Check-out Portal payment options Include:
-
-* Online Banking (DuitNow)
-* Debit/Credit Card
-* E-wallets
-* Moby BNPL
-* Paylater with Credit Card
-
-`(Refer to [Checkout Documentation] for complete payment method details)`
-
-# Payment Confirmation
-
-After selecting the desired payment method, the user enters secure passcode.
-
-**Success Flow:** Redirects back to Bill Details page
-
-Newly paid instalment now shows:
-
-* ✅ Green Tick
-
-![](https://files.readme.io/17cc267774a11ca36484cd217b089655c59ebb641307dd747bf4b3f64cb598c8-image.png)
-
-<br />
-
-* Updated Payment History card with success status. Updated Card Info based on selected payment method
-
-![](https://files.readme.io/87ebb0741ef8c988a1544492be09d4bb0dbbb54ec212981cf1b6fb3820ad2b9f-image.png)
-
-<br />
-
-# `Spending Limit` & `Upcoming Bill` Tab Update
-
-After successful payment, user’s available BNPL balance increases. Spending Limit is restored based on paid instalments. If all the pending instalments are paid successfully, then the bill card will be removed automatically and stored in the `Completed` tab.
-
-![](https://files.readme.io/d7c794b97450ce46553d26e88bf34217caa869129081ff21308cd4ff2dd3c868-image.png)
