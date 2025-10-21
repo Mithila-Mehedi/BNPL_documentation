@@ -14,11 +14,12 @@ metadata:
 # Home Page -> Paylater Activation
 
 The user starts ekyc flow by clicking the `Activate Now` button on the home screen.
-<img width="254" height="553" alt="image" src="https://github.com/user-attachments/assets/f0dd93f9-a4b7-4133-a729-4439c23a251d" />
+<br>
+<img width="386" height="658" alt="image" src="https://github.com/user-attachments/assets/bbaec942-1dc3-4906-a6ea-dd2e4daeee9d" />
 
 <br>
-# Nationality Info
 
+# Nationality Info
 `I'm Malaysian`: by clicking this option user can continue paylater activation using his/her NRIC number.
 
 `I'm not Malaysian`: by clicking this option user can continue paylater activation using his/her passport number.
@@ -27,9 +28,14 @@ The user starts ekyc flow by clicking the `Activate Now` button on the home scre
 
 <br />
 
-# Enter Payment Amount
+# Select Visa Type
 
-After scanning, the user is directed to a screen with a text input field. They enter the amount they wish to pay. The Next button remains disabled until an amount is typed. Once entered, the button becomes active.
+If the user selects `I’m not Malaysian` a popup modal appears prompting them to select a visa type. The user can choose a visa type by checking the appropriate radio button and then click `Submit` to proceed.
+
+<br>
+
+<img width="383" height="516" alt="image" src="https://github.com/user-attachments/assets/bd65110d-3e75-46cb-b030-1edb709da323" />
+
 
 `Payment Amount Field`: A text box where the user types how much they want to pay.
 
