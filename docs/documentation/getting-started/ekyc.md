@@ -17,14 +17,13 @@ The user starts ekyc flow by clicking the `Activate Now` button on the home scre
 <br/>
 <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/bbaec942-1dc3-4906-a6ea-dd2e4daeee9d" />
 <br/>
-<br/>
 # Nationality Info
 `I'm Malaysian`: by clicking this option user can continue paylater activation using his/her NRIC number.
 
 `I'm not Malaysian`: by clicking this option user can continue paylater activation using his/her passport number.
 <br/>
 <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/fbd66863-13d5-41fc-9ccf-c79ca4453021" />
-<br />
+<br/>
 # Select Visa Type
 
 If the user selects `I’m not Malaysian` a popup modal appears prompting them to select a visa type. The user can choose a visa type by checking the appropriate radio button and then click `Submit` to proceed.
@@ -40,11 +39,10 @@ If the user selects `I’m not Malaysian` a popup modal appears prompting them t
 <img width="350" height="700" alt="image" src="https://github.com/user-attachments/assets/5d494ef9-f535-417d-8017-d47092c60fa3" />
 <br/>
 - The user have to enter current company or employer name and the comapny email address.
-  <br/>
+<br/>
   <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/cb820435-eb86-405a-a5cc-8c02996b456c" />
   <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/602ae616-b5a5-43a2-a7a5-864e06b2bb56" />
 <br/>
-  <br>
 - The user should select their salary range to help determine a spending limit that best fits their needs.
 <br/>
 <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/d87f739f-9a72-4011-9998-6ecbc977bbfb" />
@@ -65,9 +63,6 @@ The user selects how often they want to make payments — either biweekly or mon
 `Relation`: Select your relationship with the emergency contact from the dropdown menu.
 
 `Skip`: Skip the emergency contact information step by clicking this button.
-
-
-
 <br />
 
 # Select Payment Option
