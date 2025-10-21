@@ -1,7 +1,7 @@
 ---
 title: E-KYC
 excerpt: >-
-Ekyc allows individuals to submit and validate their personal information and documents online, eliminating the need for physical verification. eKYC helps organizations confirm a user’s identity securely and efficiently.
+          Ekyc allows individuals to submit and validate their personal information and documents online, eliminating the need for physical verification. eKYC               helps organizations confirm a user’s identity securely and efficiently.
 deprecated: false
 hidden: false
 metadata:
