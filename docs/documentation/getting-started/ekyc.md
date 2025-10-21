@@ -74,5 +74,13 @@ If the user tries to exit after completing the emergency contact step, an exit c
 From the “Me” tab, the user can select eKYC and resume the session from any step. The user will also find a “Resume Session” card on the home page.
 
 <br /><br />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/7b130163-f36f-4a28-be1d-a121467fb2fa" />
+
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
 <br /><br />
+
+# Setup Payment Method
+After completing or skipping the emergency contact setup, the user must add a card with valid details to set up the payment method.
+<br /><br />
+<img width="701" height="706" alt="image" src="https://github.com/user-attachments/assets/04856a51-8328-4681-bb59-54494ca0911c" />
+<br /> <br />
