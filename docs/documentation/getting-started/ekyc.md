@@ -35,16 +35,16 @@ If the user selects `I’m not Malaysian` a popup modal appears prompting them t
 # Employment Info
 
 - The user must select their employment type before continuing.
-<br />
+<br /><br />
 <img width="350" height="700" alt="image" src="https://github.com/user-attachments/assets/5d494ef9-f535-417d-8017-d47092c60fa3" />
-<br />
+<br /><br />
 - The user have to enter current company or employer name and the comapny email address.
-<br />
+<br /><br/>
   <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/cb820435-eb86-405a-a5cc-8c02996b456c" />
   <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/602ae616-b5a5-43a2-a7a5-864e06b2bb56" />
-<br />
+<br /><br />
 - The user should select their salary range to help determine a spending limit that best fits their needs.
-<br />
+<br /><br />
 <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/d87f739f-9a72-4011-9998-6ecbc977bbfb" />
 <br />
 
