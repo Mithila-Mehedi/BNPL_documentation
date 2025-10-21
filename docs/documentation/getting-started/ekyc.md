@@ -74,9 +74,8 @@ If the user tries to exit after completing the emergency contact step, an exit c
 From the “Me” tab, the user can select eKYC and resume the session from any step. The user will also find a “Resume Session” card on the home page.
 
 <br /><br />
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/7b130163-f36f-4a28-be1d-a121467fb2fa" />
-
-<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
+<img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/7b130163-f36f-4a28-be1d-a121467fb2fa" />
+<img width="300" height="3500" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
 <br /><br />
 
 # Setup Payment Method
@@ -100,5 +99,11 @@ By clicking the “Continue” button, the user can proceed to capture their pas
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/0b58c59c-985f-49ea-9ed4-5e7f85681ebe" />
 <br /><br />
 
+# Awaiting for approval
+In this phase, the user will see a waiting message on the home screen, and in the eKYC section, they will find that their documents are under review.
+<br /><br />
+<img width="300" height="450" alt="image" src="https://github.com/user-attachments/assets/7da66c15-81cc-4c4e-a9ef-36b3f5cfbf9c" />
+<img width="300" height="450" alt="image" src="https://github.com/user-attachments/assets/904e2a38-b1ab-4f1b-92ac-356660e3107b" />
+<br /><br />
 
 
