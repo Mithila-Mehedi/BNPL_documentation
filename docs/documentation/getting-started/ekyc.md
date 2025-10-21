@@ -40,9 +40,11 @@ If the user selects `I’m not Malaysian` a popup modal appears prompting them t
 <br>
 <img width="350" height="700" alt="image" src="https://github.com/user-attachments/assets/5d494ef9-f535-417d-8017-d47092c60fa3" />
 <br>
-- The user have to enter current company or employer name.
+- The user have to enter current company or employer name and the comapny email address.
   <br>
-  <img width="384" height="456" alt="image" src="https://github.com/user-attachments/assets/cb820435-eb86-405a-a5cc-8c02996b456c" />
+  <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/cb820435-eb86-405a-a5cc-8c02996b456c" />
+  <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/602ae616-b5a5-43a2-a7a5-864e06b2bb56" />
+
   <br>
 Clicking "Next" takes the user to the Bill Details page. This screen summarizes the bill and allows the user to choose payment frequency and installment options.
 
