@@ -14,16 +14,16 @@ metadata:
 # Home Page -> Paylater Activation
 
 The user starts ekyc flow by clicking the `Activate Now` button on the home screen.
-<br />
+<br /><br />
 <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/bbaec942-1dc3-4906-a6ea-dd2e4daeee9d" />
-<br />
+<br /><br/>
 # Nationality Info
 `I'm Malaysian`: by clicking this option user can continue paylater activation using his/her NRIC number.
 
 `I'm not Malaysian`: by clicking this option user can continue paylater activation using his/her passport number.
-<br />
+<br /><br/>
 <img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/fbd66863-13d5-41fc-9ccf-c79ca4453021" />
-<br />
+<br /><br />
 # Select Visa Type
 
 If the user selects `I’m not Malaysian` a popup modal appears prompting them to select a visa type. The user can choose a visa type by checking the appropriate radio button and then click `Submit` to proceed.
