@@ -52,9 +52,9 @@ If the user selects `I’m not Malaysian` a popup modal appears prompting them t
 # Emergency Contact
 
 The user selects how often they want to make payments — either biweekly or monthly. This is a required selection.
-<br />
+<br /><br />
 <img width="350" height="600" alt="image" src="https://github.com/user-attachments/assets/18a3f335-2f76-4355-bbd3-ec9e2bef1031" />
-<br />
+<br /><br />
 
 `Mobile Number`: Enter the mobile number of your emergency contact.
 
@@ -63,30 +63,16 @@ The user selects how often they want to make payments — either biweekly or mon
 `Relation`: Select your relationship with the emergency contact from the dropdown menu.
 
 `Skip`: Skip the emergency contact information step by clicking this button.
-<br />
+<br /><br />
 
-# Select Payment Option
+# Resume Session
+If the user tries to exit after completing the emergency contact step, an exit confirmation modal will appear.
+<br /><br />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/253a6179-a0b6-4b86-b64a-4b0d14a14f8d" />
+<br /><br />
 
-The user now chooses a payment plan, such as `Pay Now`, `Pay in 2`, `Pay in 3`, or `Pay in 4`. These plans split the payment and show all cost details.
+From the “Me” tab, the user can select eKYC and resume the session from any step. The user will also find a “Resume Session” card on the home page.
 
-`Pay Now`: Pay the full amount immediately.
-
-`Pay in 2/3/4`: Divide the amount over multiple payments with added fees.
-
-`Installment Plan Info`: Breakdown of how much to pay now, future installments, and fees.
-
-![](https://files.readme.io/2ccee88d394aa6ce1309056d08772f8e3ac72066fed31086e2629f180d68a628-image.png)
-
-<br />
-
-`Pay in 2`: The total payment amount entered by the user (e.g., RM 140.00).
-
-`Pay Today`: The portion of the bill charged immediately, including any upfront fees.
-
-`Instalment`: A part of the total payment that is scheduled to be paid on a future date. (e.g., RM 125.00 on 7 Jul 2025).
-
-`Processing Fee`: An extra service fee charged for using the instalment plan.
-
-`Credit Shield Fee`: Optional fee for protection against missed payments (if any).
-
-`Discount`: Any promotional or voucher-based amount reduced from the total.
+<br /><br />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
+<br /><br />
