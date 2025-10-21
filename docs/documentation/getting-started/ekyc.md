@@ -1,9 +1,7 @@
 ---
 title: E-KYC
 excerpt: >-
-  Early Payment refers to the option for a user to pay one or more upcoming
-  instalments before their scheduled due dates. It helps reduce outstanding dues
-  faster and may restore the user's available BNPL spending limit sooner.
+Ekyc allows individuals to submit and validate their personal information and documents online, eliminating the need for physical verification. eKYC helps organizations confirm a user’s identity securely and efficiently.
 deprecated: false
 hidden: false
 metadata:
@@ -75,7 +73,7 @@ From the “Me” tab, the user can select eKYC and resume the session from any 
 
 <br /><br />
 <img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/7b130163-f36f-4a28-be1d-a121467fb2fa" />
-<img width="300" height="3500" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
+<img width="300" height="350" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
 <br /><br />
 
 # Setup Payment Method
