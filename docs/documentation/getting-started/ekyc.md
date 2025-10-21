@@ -15,17 +15,15 @@ metadata:
 
 The user starts ekyc flow by clicking the `Activate Now` button on the home screen.
 <br>
-<img width="386" height="658" alt="image" src="https://github.com/user-attachments/assets/bbaec942-1dc3-4906-a6ea-dd2e4daeee9d" />
-
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/bbaec942-1dc3-4906-a6ea-dd2e4daeee9d" />
 <br>
 
 # Nationality Info
 `I'm Malaysian`: by clicking this option user can continue paylater activation using his/her NRIC number.
 
 `I'm not Malaysian`: by clicking this option user can continue paylater activation using his/her passport number.
-
-<img width="539" height="726" alt="image" src="https://github.com/user-attachments/assets/fbd66863-13d5-41fc-9ccf-c79ca4453021" />
-
+<br>
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/fbd66863-13d5-41fc-9ccf-c79ca4453021" />
 <br />
 
 # Select Visa Type
@@ -33,20 +31,19 @@ The user starts ekyc flow by clicking the `Activate Now` button on the home scre
 If the user selects `I’m not Malaysian` a popup modal appears prompting them to select a visa type. The user can choose a visa type by checking the appropriate radio button and then click `Submit` to proceed.
 
 <br>
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/bd65110d-3e75-46cb-b030-1edb709da323" />
+<br>
 
-<img width="383" height="516" alt="image" src="https://github.com/user-attachments/assets/bd65110d-3e75-46cb-b030-1edb709da323" />
+# Employment Info
 
-
-`Payment Amount Field`: A text box where the user types how much they want to pay.
-
-`Next `Button: The button to move to the next screen, becomes active after entering a valid amount.
-
-<Image align="center" width="250px" src="https://files.readme.io/ac36d008560541bde8e358b61991f6063646ab8b1d48dc8cf396c9834ab8851c-image.png" />
-
-<br />
-
-# Bill Details Page
-
+- The user must select their employment type before continuing.
+<br>
+<img width="350" height="700" alt="image" src="https://github.com/user-attachments/assets/5d494ef9-f535-417d-8017-d47092c60fa3" />
+<br>
+- The user have to enter current company or employer name.
+  <br>
+  <img width="384" height="456" alt="image" src="https://github.com/user-attachments/assets/cb820435-eb86-405a-a5cc-8c02996b456c" />
+  <br>
 Clicking "Next" takes the user to the Bill Details page. This screen summarizes the bill and allows the user to choose payment frequency and installment options.
 
 `Merchant Name`: The business receiving the payment.
