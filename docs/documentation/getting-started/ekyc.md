@@ -74,7 +74,7 @@ If the user tries to exit after completing the emergency contact step, an exit c
 From the “Me” tab, the user can select eKYC and resume the session from any step. The user will also find a “Resume Session” card on the home page.
 
 <br /><br />
-<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/7b130163-f36f-4a28-be1d-a121467fb2fa" />
+<img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/7b130163-f36f-4a28-be1d-a121467fb2fa" />
 
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/5e2d51a0-536f-44f5-96b0-0faa348011bb" />
 <br /><br />
@@ -82,5 +82,16 @@ From the “Me” tab, the user can select eKYC and resume the session from any 
 # Setup Payment Method
 After completing or skipping the emergency contact setup, the user must add a card with valid details to set up the payment method.
 <br /><br />
-<img width="701" height="706" alt="image" src="https://github.com/user-attachments/assets/04856a51-8328-4681-bb59-54494ca0911c" />
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/04856a51-8328-4681-bb59-54494ca0911c" />
 <br /> <br />
+Adding a card with valid details and successful 3DS completion shows a success popup.
+<br /><br />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a474f00a-84cb-4f6a-895c-6d8d81cfe7e0" />
+<br /><br />
+
+# Identity verification
+The next step after setting up the payment method is identity verification. The user needs to scan their passport and take a selfie for verification.
+<br /><br />
+<img width="324" height="687" alt="image" src="https://github.com/user-attachments/assets/7ae415bb-4b2b-4767-886c-e71326cdb5f3" />
+<br /><br />
+
