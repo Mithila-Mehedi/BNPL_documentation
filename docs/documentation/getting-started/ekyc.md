@@ -44,23 +44,15 @@ If the user selects `I’m not Malaysian` a popup modal appears prompting them t
   <br>
   <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/cb820435-eb86-405a-a5cc-8c02996b456c" />
   <img width="350" height="400" alt="image" src="https://github.com/user-attachments/assets/602ae616-b5a5-43a2-a7a5-864e06b2bb56" />
-
+<br>
   <br>
-Clicking "Next" takes the user to the Bill Details page. This screen summarizes the bill and allows the user to choose payment frequency and installment options.
+- The user should select their salary range to help determine a spending limit that best fits their needs.
+<br>
+<img width="350" height="500" alt="image" src="https://github.com/user-attachments/assets/d87f739f-9a72-4011-9998-6ecbc977bbfb" />
+<br>
 
-`Merchant Name`: The business receiving the payment.
 
-`Bill Amount`: The amount the user entered on the previous screen.
-
-`Voucher/ Promo Code`: Optional discount that can be selected from an available voucher list.
-
-`Select` Functionality: Allows users to choose a promo code from a list.
-
-<Image align="center" src="https://files.readme.io/8bcc7a56cd4d366885048b601cd94d71390dd4459764ceb6c635bfda7fa2b51b-Screenshot_111.png" />
-
-<br />
-
-# Choose Payment Frequency
+# Emergency Contact
 
 The user selects how often they want to make payments — either biweekly or monthly. This is a required selection.
 
